@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'MinecraftRegular-Bmg3';
+    src: url('C:/Users/FaraonDen41k/Downloads/EDITINGS PACKS/MinecraftRegular-Bmg3.otf') format('opentype');
+}
+
+
+body {
+    font-family: 'MinecraftRegular-Bmg3', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1B1934, #3C1649, #5C2244, #993C4D );
+    
+}
+
+
+/* Решта вашого CSS коду тут */
+
+
+header {
+    background-color: #0000000c; 
+    
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: rgb(251, 255, 0); /* колір для welcome to adobe store */
+    
+}
+
+nav ul li a {
+    color: #afafaf; /* колір тексту about products contact */
+}
+
+nav {
+    background-color: #0000000c; /* фон для adout,product,contack */
+    
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#about {
+    background-color: #00000000; /* about us колір фону */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+    padding: 40px;
+}
+
+#about h2 {
+    color: #305d80; /* adobe us колір тексту */
+    
+}
+#about p {
+    color: rgba(238, 238, 238, 0.705); /* колір тексту під adobe us */
+}
+
+
+#products {
+    background-color: #0000000c; /* our product колір фону */
+    padding: 40px;
+    
+}
+
+#products h2 {
+    color: #305d80; /* our product колір тексту */
+    text-align: center;
+}
+.product h4 {
+    color: #eeff00b7; /* колір тексту назв програм */
+}
+
+
+
+.product-category h3 {
+    color: rgb(201, 201, 201); /* product budle+ single колір тексту*/
+}
+
+.product p {
+    color: rgb(192, 191, 191); /* колір тексту опису програм */
+}
+
+.product-category {
+    margin-bottom: 40px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #27272731;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.product {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    background-color: #2727270a;
+    border-radius: 20px;
+    
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.product p {
+    font-size: 14px;
+}
+
+#contact {
+    background-color: #0000000c; /* contuct us колір фону */
+    background: linear-gradient(to bottom, #993C4D, #5C2244 );
+    padding: 40px;
+
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+#contact h2 {
+    color: #ffffff; /* contacty us колір тексту */
+    
+}
+#contact p {
+    color: #ffffffcb; /* колір тексту інформації під contact us */
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0); /* колір тексту нижнього баннера */
+    color: #e5ff00;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: #858484;
+}
